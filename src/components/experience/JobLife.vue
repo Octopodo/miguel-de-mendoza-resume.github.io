@@ -13,7 +13,7 @@
      During the lockdowns, I have taken the opportunity to develop my personal projects, among which 3 stand out:
     <br><br>
         &emsp;<a class="no-underline" :href="links.ktBundle" target="_blank">KT Bundle<v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>: I have developed my own framework for the Photoshop, 
-      after Effects and Adobe Animate APIs, to be able to develop solid tools for these programs very quickly and on 
+      After Effects and Adobe Animate APIs, to be able to develop solid tools for these programs very quickly and on 
       project demand. Technologies: Adobe Extendscript, Adobe CEP, Javascript and VueJs. 
     <br><br>
         &emsp;<a class="no-underline" :href="links.fretboard" target="_blank">Fretboard Master<v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>: Taking advantage of my musical knowledge, 
@@ -54,7 +54,7 @@
     >
       Responsible for the visual identity of the company. My main functions were the conceptualization,
        creation and maintenance of all visual material: <a :href="links.tva" target="_blank" class="no-underline">videos
-         <v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>,
+         <v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>
         ,mailing, reporting and corporate visuals. In addition, I was also in charge of the R&D department developing different Social Media and Facial Recognition algorithms , written in C++ 
     </Job>
     <Job
