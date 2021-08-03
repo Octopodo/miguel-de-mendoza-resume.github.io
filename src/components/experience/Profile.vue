@@ -6,6 +6,7 @@
         <v-img src="img/profile.jpg"
           max-width="250"
           max-height="250"
+          class="mt-5"
         ></v-img>
       </v-col>
       <v-col>
