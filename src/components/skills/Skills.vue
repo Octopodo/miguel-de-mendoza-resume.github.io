@@ -12,13 +12,20 @@
         <div class="display-1 amber--text text--darken-3 kt-title">
           {{ name }}
           <v-btn icon href="https://github.com/Octopodo" target="_blank">
-          <v-icon large class="amber--text text--darken-3">mdi-github</v-icon>
-        </v-btn>
+            <v-icon  class="amber--text text--darken-3">mdi-github</v-icon>
+          </v-btn>
+          <v-btn icon href="https://stackoverflow.com/users/4479087/miguel" target="_blank">
+            <v-icon class="amber--text text--darken-3">mdi-stack-overflow</v-icon>
+          </v-btn>
+          
+        
         </div>
         <div class="title blue--text text--lighten-2">
           {{ title }}
+          
         </div>
       </div>
+      
 
     </v-row>
     
