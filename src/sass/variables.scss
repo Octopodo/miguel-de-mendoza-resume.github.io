@@ -1,0 +1,11 @@
+$font-family:'Yanone Kaffeesatz', sans-serif;
+
+.v-application {
+  [class*='text-'] {
+    font-family: $font-family, sans-serif !important;
+  }
+  font-family: $font-family, sans-serif !important;
+}
+
+
+
