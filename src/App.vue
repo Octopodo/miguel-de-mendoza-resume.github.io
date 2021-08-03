@@ -30,4 +30,8 @@ $body-font-family: 'Yanone Kaffeesatz', sans-serif !important
 
 .no-underline
   text-decoration: none!important
+
+.v-card__text, .v-card__title 
+  word-break: normal !important  
+
 </style>
