@@ -18,7 +18,7 @@
         </div>
         <v-content class="mt-12 mr-12 kt-description ">
 
-          &emsp;Specialist in Motion Graphics, Front End and visual Workflows. I love to solve problems and oil development processes, to allow creators to maximize their creativity by reducing the working time.
+          &emsp;Specialist in <a class="no-underline" href="https://vimeo.com/210661458" target="_blank">Motion Graphics<v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>, Front End and visual Workflows. I love to solve problems and oil development processes, to allow creators to maximize their creativity by reducing the working time.
           <br><br>
           &emsp;Creative, curious and a true geek. My passion for discovering how things work has allowed me to develop a unique profile, in which science, art and philosophy come together to allow me to develop comprehensive projects, focused on technological and audiovisual solutions.
         </v-content>

@@ -11,6 +11,9 @@
       >
         <div class="display-1 amber--text text--darken-3 kt-title">
           {{ name }}
+          <v-btn icon href="https://vimeo.com/user4270303" target="_blank">
+            <v-icon class="amber--text text--darken-3">mdi-vimeo</v-icon>
+          </v-btn>
           <v-btn icon href="https://github.com/Octopodo" target="_blank">
             <v-icon  class="amber--text text--darken-3">mdi-github</v-icon>
           </v-btn>
@@ -60,19 +63,11 @@
         
       </v-expansion-panel >
       <skills-list
-        title="LANGUAGES"
-        skills="languages"
+        title="VISUAL SKILLS"
+        skills="visual"
         @change="print"
         show-level
-        language
-        :show="show[1]"
-      />
-      <skills-list
-        title="PROGRAMMING SKILLS"
-        skills="programming"
-        @change="print"
-        show-level
-        :show="show[2]"
+        :show="show[4]"
       />
       <skills-list
         title="SOFTWARE"
@@ -82,12 +77,22 @@
         :show="show[3]"
       />
       <skills-list
-        title="VISUAL SKILLS"
-        skills="visual"
+        title="LANGUAGES"
+        skills="languages"
         @change="print"
         show-level
-        :show="show[4]"
+        language
+        :show="show[1]"
       />
+       
+      <skills-list
+        title="PROGRAMMING SKILLS"
+        skills="programming"
+        @change="print"
+        show-level
+        :show="show[2]"
+      />
+     
     </v-expansion-panels>
     
   </v-navigation-drawer >

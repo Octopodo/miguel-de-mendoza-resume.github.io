@@ -50,13 +50,45 @@ export default {
     }
 
   },
-  software: {
-    vscode: {
-      title: 'Visual Studio Code',
+  visual: {
+    compositing: {
+      title: 'Compositing',
+      desc: '',
+      level: 'Expert',
+      punt: 100
+    },
+    animation: {
+      title: 'Animation',
+      desc: '',
+      level: 'Expert',
+      punt: 95
+    },
+    video: {
+      title: 'Video Editing',
+      desc: '',
+      level: 'Expert',
+      punt: 90
+    },
+    drawing: {
+      title: 'Drawing',
+      desc:'',
+      level: 'Advanced',
+      punt: 76
+    },
+    design: {
+      title:'Graphic Design',
       desc: '',
       level: 'Advanced',
       punt: 78
     },
+    threeD: {
+      title: '3D',
+      desc: '',
+      level: 'Intermediate',
+      punt: 47
+    },
+  },
+  software: {
     ae: {
       title: 'After Effects',
       desc: '',
@@ -69,11 +101,29 @@ export default {
       level: 'Expert',
       punt: 90
     },
+    toonboom: {
+      title: 'Toon Boom Harmony',
+      desc: '',
+      level: 'Expert',
+      punt: 95
+    },
+    studioone: {
+      title: 'Studio One',
+      desc: '',
+      level: 'Expert',
+      punt: 97
+    },
     animate: {
       title: 'Animate',
       desc: '',
       level: 'Expert',
       punt: 100
+    },
+    streamlabs: {
+      title: 'Streamlabs',
+      desc: '',
+      level: 'Advanced',
+      punt: 70
     },
     illustrator: {
       title: 'illustrator',
@@ -87,31 +137,11 @@ export default {
       level: 'Advanced',
       punt: 72
     },
-  },
-  visual: {
-    drawing: {
-      title: 'Drawing',
-      desc:'',
-      level: 'Advanced',
-      punt: 76
-    },
-    animation: {
-      title: 'Animation',
-      desc: '',
-      level: 'Advanced',
-      punt: 85
-    },
-    design: {
-      title:'Graphic Design',
+    vscode: {
+      title: 'Visual Studio Code',
       desc: '',
       level: 'Advanced',
       punt: 78
-    },
-    threeD: {
-      title: '3D',
-      desc: '',
-      level: 'Intermediate',
-      punt: 47
     },
   },
   languages: {

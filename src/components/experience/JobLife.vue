@@ -12,6 +12,10 @@
     >
      During the lockdowns, I have taken the opportunity to develop my personal projects, among which 3 stand out:
     <br><br>
+      &emsp;<a class="no-underline" :href="links.estepaistube" target="_blank">Estepáistube<v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>: I have released a cartoon series for youtube. 
+      Except for some sounds, the production is made entirely by me: concept, script, animatics, character design, voices, 
+      folley, audio and tool development.
+    <br><br>
         &emsp;<a class="no-underline" :href="links.ktBundle" target="_blank">KT Bundle<v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>: I have developed my own framework for the Photoshop, 
       After Effects and Adobe Animate APIs, to be able to develop solid tools for these programs very quickly and on 
       project demand. Technologies: Adobe Extendscript, Adobe CEP, Javascript and VueJs. 
@@ -23,10 +27,7 @@
       <v-btn icon :href="links.fretboardRepo" target="_blank">
         <v-icon class="blue--text">mdi-github</v-icon>
       </v-btn>
-    <br><br>
-        &emsp;<a class="no-underline" :href="links.estepaistube" target="_blank">Estepáistube<v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>: I have released a cartoon series for youtube. 
-        Except for some sounds, the production is made entirely by me: concept, script, animatics, character design, voices, 
-        folley, audio and tool development.
+    
     </Job>
     <Job
       title="Motion Graphics"
@@ -34,8 +35,9 @@
       place="Freelance"
     >
       Full development of animation pieces with After Effects, as well as video post-production in
-<a class="no-underline" :href="links.lolalamota" target="_blank">Señor Balboa Productions<v-icon small class="blue--text ">mdi-open-in-new</v-icon>
-</a>, Forpro.tv and Ejecon: Chroma Technician, CC, Production Support, Camera Operator in events and sound engineer.
+<a class="no-underline" :href="links.senorbalboa" target="_blank">Señor Balboa Productions<v-icon small class="blue--text ">mdi-open-in-new</v-icon>
+</a>, Forpro.tv and Ejecon: Chroma Technician, CC, Production Support, Camera Operator in events, sound engineer and 
+<a class="no-underline" :href="links.trheesixty" target="_blank">360º CGI integration.<v-icon small class="blue--text ">mdi-open-in-new</v-icon></a>
     </Job>
     <Job
       title="Motion Graphics Designer"
@@ -84,10 +86,11 @@ export default {
         ktBundle: 'https://github.com/Octopodo/com.kt.tools.bundle',
         fretboard: 'https://octopodo.github.io/FretboardMaster.github.io/',
         fretboardRepo: 'https://github.com/Octopodo/FretboardMaster.github.io',
-        estepaistube: 'https://www.youtube.com/watch?v=6AedJxMpSyo',
-        lolalamota: 'https://vimeo.com/191449143',
+        estepaistube: 'https://youtu.be/BfhNsZIwcKs',
+        senorbalboa: 'https://vimeo.com/user38718384',
         bocazas: 'https://www.youtube.com/watch?v=FMkgKLRiquw&ab_channel=DisneyChannelEspa%C3%B1a',
-        tva:'https://vimeo.com/246088232'
+        tva:'https://vimeo.com/246088232',
+        trheesixty:"https://vimeo.com/310521179"
       }
     }
   },
